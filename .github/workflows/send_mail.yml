@@ -10,7 +10,9 @@ jobs:
       - name: Keylol Action
         uses: yuyinws/keylol-action@v1.1
         with:
-          urls: 
+          urls:
+            f148-1
+            forum.php?mod=forumdisplay&fid=148&filter=typeid&typeid=710
             forum.php?mod=forumdisplay&fid=319&filter=author&orderby=dateline&dateline=86400
             forum.php?mod=forumdisplay&fid=251&filter=author&orderby=dateline
           limit: 10

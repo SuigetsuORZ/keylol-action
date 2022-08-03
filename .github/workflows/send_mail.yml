@@ -11,7 +11,6 @@ jobs:
         uses: yuyinws/keylol-action@v1.1
         with:
           urls:
-            f148-1
             forum.php?mod=forumdisplay&fid=148&filter=typeid&typeid=710
             f319-1
           limit: 10

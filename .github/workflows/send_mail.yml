@@ -1,7 +1,7 @@
 name: keylol action
 on:
   schedule:
-    - cron: "2 * * * *"
+    - cron: "0 */5 * * *"
 
 jobs:
   build:
@@ -13,8 +13,9 @@ jobs:
           urls:
             f148-1
             forum.php?mod=forumdisplay&fid=148&filter=typeid&typeid=710
-            forum.php?mod=forumdisplay&fid=319&filter=author&orderby=dateline&dateline=86400
-            forum.php?mod=forumdisplay&fid=251&filter=author&orderby=dateline
+            f319-1
+            f234-1
+            forum.php?mod=forumdisplay&fid=234&filter=typeid&typeid=786
           limit: 10
 
       - name: Send mail
